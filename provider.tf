@@ -1,9 +1,12 @@
-provider "aws" {
-<<<<<<< HEAD
-  region = var.region
-}
-=======
-  region = "us-east-1"
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"  # Adjust as necessary
+    }
+  }
 }
 
->>>>>>> 93b82ab (1st commit)
+provider "aws" {
+  region = "us-east-1"
+}
