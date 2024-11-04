@@ -23,6 +23,12 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 
+<<<<<<< HEAD
+=======
+# Ignore transient lock info files created by terraform apply
+.terraform.tfstate.lock.info
+
+>>>>>>> 93b82ab (1st commit)
 # Include override files you do wish to add to version control using negated pattern
 # !example_override.tf
 
