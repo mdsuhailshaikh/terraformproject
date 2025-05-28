@@ -3,6 +3,6 @@ terraform {
     bucket = "khalidsuhails3"
     key    = "state"
     region = "ap-south-1"
-    dynamodb_table = "khalidsuhailtable"
+    dynamodb_table = "state-lock"
   }
 }
