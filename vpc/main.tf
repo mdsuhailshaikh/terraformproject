@@ -13,7 +13,7 @@ resource "aws_subnet" "pb_sn" {
   vpc_id                  = aws_vpc.my_vpc.id
   cidr_block              = var.pb_cidr
   map_public_ip_on_launch = true
-  availability_zone       = "us-east-1a"
+  availability_zone       = "ap-south-1a"
 
   tags = {
     Name = "pb_1"
